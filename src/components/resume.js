@@ -36,7 +36,7 @@ class Resume extends Component {
                         <h5>Email</h5>
                         <p>mihaidan418@gmail.com</p>
                         <h5>Web</h5>
-                        <p>mywebsite.com</p>
+                        <p>https://mihaidan.github.io/</p>
                         <hr style={{borderTop: '3px solid #226A85', width: '50%'}}/>
 
                     </Cell>
