@@ -14,6 +14,7 @@ class Projects extends Component {
         if(this.state.activeTab === 0){
             return(
                 <div className="projects-grid">
+                    <div className="p-card">
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://deskbright-media.s3.amazonaws.com/static/cms/images/articles/excel/what-is-excel/image1.jpg) center / cover'}}>
                             Spreadsheet Explanations Through Table Abstraction
@@ -55,11 +56,13 @@ class Projects extends Component {
                             <Button colored>GitHub</Button>
                         </CardActions>*/}
                     </Card>
+                    </div>
                 </div>
             )
         } else if (this.state.activeTab === 1){
             return(
                 <div className="projects-grid">
+                    <div className="p-card">
                     {/* PaperGene */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'white', height: '176px', background: 'url(https://www.sciencedocs.com/wp-content/uploads/2017/01/close-up-sci-papers-500x374.gif) center / cover'}}>
@@ -99,6 +102,18 @@ class Projects extends Component {
                         <Button colored><a href="https://github.com/DeqingQu/Quantop" style={{textDecoration: 'none', color: 'darkblue'}} target="_blank" rel="noopener noreferrer">GitHub</a></Button> 
                         </CardActions>
                     </Card>
+
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'white', height: '176px', background: 'url(https://djangoforce.com/wp-content/uploads/2018/01/django.jpg) center / cover'}}>
+                            Django Blog
+                        </CardTitle>
+                        <CardText>
+                            In order to refresh my skills using the Django framework, I created a simple blogging application. This application allows you to view and browse a list of blog posts, create a new post, and edit existing posts. The styling is done with Bootstrap to create a more appealing interface as well as one that's easier to use.
+                        </CardText>
+                        <CardActions border>
+                        <Button colored><a href="https://github.com/mihaidan/DjangoBlog" style={{textDecoration: 'none', color: 'darkblue'}} target="_blank" rel="noopener noreferrer">GitHub</a></Button> 
+                        </CardActions>
+                    </Card>
                     
                     {/* Discord Bots */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -114,11 +129,13 @@ class Projects extends Component {
                         <Button colored><a href="https://github.com/mihaidan/DiscordBots" style={{textDecoration: 'none', color: 'darkblue'}} target="_blank" rel="noopener noreferrer">GitHub</a></Button> 
                         </CardActions>
                     </Card>
+                    </div>
                 </div>
             )
         }else if (this.state.activeTab === 2){
             return(
                 <div className="projects-grid">
+                    <div className="p-card">
                     {/* Project 1*/}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'white', height: '176px', background: 'url(https://heavyeditorial.files.wordpress.com/2018/11/uppercase-ghostcover.jpg?quality=65&strip=all&w=425) center / cover'}}>
@@ -131,11 +148,13 @@ class Projects extends Component {
                             <Button colored><a href="https://github.com/mihaidan/TextGenerator" style={{textDecoration: 'none', color: 'darkblue'}} target="_blank" rel="noopener noreferrer">GitHub</a></Button> 
                         </CardActions>
                     </Card>
+                    </div>
                 </div>
             )
         }else if (this.state.activeTab === 3){
             return(
                 <div className="projects-grid">
+                    <div className="p-card">
                     {/* Project 1*/}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'white', height: '176px', background: 'url(https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
@@ -148,6 +167,7 @@ class Projects extends Component {
                             <Button colored><a href="https://github.com/mihaidan/" style={{textDecoration: 'none', color: 'darkblue'}} target="_blank" rel="noopener noreferrer">GitHub</a></Button> 
                         </CardActions>
                     </Card>
+                    </div>
                 </div>
             )
         }

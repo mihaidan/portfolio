@@ -43,6 +43,20 @@ class Contact extends Component {
                                     </ListItemContent>
                                 </ListItem>
                             </List>
+                            {/*<Grid>
+                                <Cell col={3}>
+                                    <i className="fa fa-phone-square" aria-hidden="true"/>
+                                </Cell>
+                                <Cell col={9} style={{fontSize: '30px', fontFamily: 'Anton', display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+                                    (503) 867-0980
+                                </Cell>
+                                <Cell col={2}>
+                                    <i className="fa fa-phone-square" aria-hidden="true"/>
+                                </Cell>
+                                <Cell col={10} style={{fontSize: '30px', fontFamily: 'Anton', display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+                                    (503) 867-0980
+                                </Cell>
+                            </Grid>*/}
                         </div>
                     </Cell>
                 </Grid>
