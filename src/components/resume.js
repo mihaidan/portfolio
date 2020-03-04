@@ -53,7 +53,7 @@ class Resume extends Component {
                             item3 = "Manage and delegate responsibilities amongst a team of undergraduate researchers."
                         />
                         <Experience
-                            startYear = "June 2018"
+                            startYear = "June 2017"
                             endYear = "present"
                             jobName = "Engineering Adviser"
                             companyName = "Synkwise"
